@@ -6,4 +6,4 @@ else
   TAG="$TRAVIS_BRANCH"
 fi
 docker build -f Dockerfile -t willwbowen/cicd-buzz:"$TAG" .
-docker push "$TRAVIS_REPO_SLUG"
+docker push willwbowen/cicd-buzz

@@ -11,8 +11,6 @@ signal.signal(signal.SIGINT, lambda s, : os._exit(0))
 def generate_buzz():
      page = '<html><body><h1>'
      page += generator.generate_buzz()
-     page += <br />
-     page += "this is a new build"
      page += '</h1></body></html>'
      return page
 
